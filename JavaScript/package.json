@@ -1,0 +1,22 @@
+{
+  "name": "leetcode-js",
+  "version": "1.0.0",
+  "description": "my leetcode solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "blackmatch <coder.blackmatch@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.0"
+  }
+}
