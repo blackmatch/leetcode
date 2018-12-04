@@ -55,3 +55,25 @@ const checkCycle = (head) => {
 const c = checkCycle(headNode);
 
 debug(c);
+
+const cycle2 = (head) => {
+  const nodes = [];
+  let cur = head;
+  let cycle = false;
+
+  while (cur) {
+    if (nodes.includes(cur)) {
+      cycle = true;
+      break;
+    }
+
+    nodes.push(cur);
+
+    cur = cur.next;
+  }
+
+  return cycle;
+};
+
+const cc = cycle2(headNode);
+debug(cc);
